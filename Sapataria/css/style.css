@@ -4,6 +4,10 @@ body {
     margin: 2rem;
 }
 
+header {
+    background-image: url(./imagem/textura2.png);
+}
+
 .conteiner-nav {
     display: flex;
     flex-direction: row;
