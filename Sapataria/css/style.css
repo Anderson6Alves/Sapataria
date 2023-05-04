@@ -2,14 +2,9 @@ body {
     background-color: antiquewhite;
 }
 
-header {
-    background-image: url(./imagem/textura3.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: auto;
-    object-fit: cover;
-    min-width: 100vw;
-    min-height: 100vh;
+.conteiner-sapatos {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-home {
