@@ -2,6 +2,11 @@ body {
     background-color: antiquewhite;
 }
 
+header img {
+    display: flex;
+    
+}
+
 .titulo_prin {
  font-weight: 500;
  font-size: 2rem;
@@ -14,7 +19,7 @@ body {
     font-size: 1.8rem;
     color: white;
     text-align: center;
-    margin: 5px 0px 5px;
+    margin: 10px;
     background-color: black;
    }
 
@@ -22,12 +27,29 @@ body {
     font-weight: 300;
     font-size: 1.5rem;
     text-align: center;
-    margin: 5px 0px 5px;
+    margin: 10px;
 }
 
 .conteiner-sapatos {
     display: flex;
     justify-content: space-evenly;
+    margin: 10px;
+    border: 5px;
+}
+
+.conteiner-cintos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 5px;
+}
+
+.conteiner-bolsa {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 5px;
+    box-shadow: 2rem;
 }
 
 .nav-home {
