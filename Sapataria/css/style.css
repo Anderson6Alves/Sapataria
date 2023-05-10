@@ -1,38 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
 body {
     background-color: antiquewhite;
 }
 
 header img {
-    display: flex;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 0px 60%;
     
 }
 
-.titulo_prin {
- font-weight: 500;
- font-size: 2rem;
- text-align: center;
- margin: 5px 0px 5px;
+h1 {
+    margin: 5px;
+    border: 5px;
 }
+
+h2 {
+    margin: 5px;
+    border: 5px;
+}
+
 
 .titulo_prin {
     font-weight: 450;
     font-size: 1.8rem;
+    font-family: 'Lobster', cursive;
     color: white;
     text-align: center;
-    margin: 10px;
+    margin: 5px 0px 5px;
+    line-height: 40px;
     background-color: black;
+
    }
 
 .sub_titulo {
     font-weight: 300;
     font-size: 1.5rem;
+    font-family: 'Overpass', sans-serif;
     text-align: center;
-    margin: 10px;
+    line-height: 80px;
+    margin: 5px 0px 5px;
 }
 
 .conteiner-sapatos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 10px;
     border: 5px;
 }
@@ -40,16 +56,15 @@ header img {
 .conteiner-cintos {
     display: flex;
     justify-content: space-evenly;
-    margin: 10px;
-    border: 5px;
+    flex-wrap: wrap;
 }
 
 .conteiner-bolsa {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 10px;
     border: 5px;
-    box-shadow: 2rem;
 }
 
 .nav-home {
@@ -57,4 +72,8 @@ header img {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.itens-compra {
+    height: 365px;
 }
