@@ -83,6 +83,23 @@ h2 {
     background-color: rgb(187, 125, 81);
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.redeSocial{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.pagamento {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .nav-home a {
     text-decoration: none;
     color: white;
